@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main { */
+    /* width: 50%; */
+    /* margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+nav a {
+display: flex;
+margin-right: 50px;
+}
+
+.breads {
+display: flex;
+margin: 100px 160px auto;
+align-items: center;
+font-size: 15px;
+}
+
+.breads h3 {
+padding: 30px 0;
+font-family:'Big Shoulders Display';
+font-size: 25px;
+color: hsl(0, 0%, 95%);
+}
+
+.breads p {
+    padding-bottom: 80px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.box2 {
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.bread {
+   padding: 40px; 
+   
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 1000000px;
+    border: 1.5px solid white;
+    transition: all 0.3s;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+button:hover {
+background-color: transparent;
+color: white;
+}
+
+.box1 button {
+color: hsl(31, 77%, 52%);
+}
+
+.box2 button{
+color: hsl(184, 100%, 22%);
+}
+ .box3 button {
+color: hsl(179, 100%, 13%);
+ }
+
+
+
+
+
+
+
+
+/* .breads {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.breads h3 {
+
+}
+
+.bread {
+    padding: 30px;
+    box-shadow: 2px 1px 1px 1px rgba(red, green, blue, alpha)
+}
+
+.contact-button {
+    display: inline-block;
+  padding: 25px 50px;
+  margin: 100px auto;
+  border-radius: 3px;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact-button a:hover {
+  transform: scale(1.1);
+  background-color: #222;
+} */
